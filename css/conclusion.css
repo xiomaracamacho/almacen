@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+img {
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
