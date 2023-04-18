@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-image: url( https://image.jimcdn.com/app/cms/image/transf/none/path/s66250d4c29037e82/backgroundarea/ifeb820a01d599215/version/1549883007/image.jpg;);
+   background-size: cover;
+}
+nav{
+    background-color: #fff;
+    width: 98%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px ;
+    border-bottom:1px solid black ;
+    box-shadow: 0 0 10px;
+    position: relative;
+}
+.titulo{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    float: left;
+}
+.imagen{
+    width: 90px;
+    padding-left: 65%;
+    padding-top: 5px;
+    display: flex;
+    justify-content: right;
+}
+.subti{
+    font-size: 34px;
+    color:rgb(255, 255, 255);
+    box-shadow: 0 0 10px 5px black;
+    text-align: center;
+    background-color: rgb(235, 103, 15);
+}
+.div-conten{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 155vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.7;
+    background-color: rgb(236, 232, 226);
+}
+p{
+    margin: 10px;
+    padding-top: 10px;
+    color: black;
+    font-weight: bold; 
+}
+input{
+    float: right;
+    justify-content: right;
+    text-align: left;
+    border-radius: 10px ;
+    margin-left: 40px;
+    padding: 0 10px;
+}
+.valores{
+    color: red;
+}
+button{
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 70px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    padding: 5px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    color: white;
+    box-shadow: 0 0 10px 5px rgb(229, 107, 20);
+    padding: 10px;
+}
+.totaltodo{
+    text-align: center;
+     background-color: orange;
+}
+.imprimir{
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(236, 227, 227);
+    background-color: rgb(17, 6, 2);
+    cursor: pointer;
+    padding: 5px;
+}
+.imprimir:hover{
+    transform: scale(0.9);
+    transition: 0.1s;
+    color: rgb(245, 94, 7);
+    box-shadow: 0 0 10px 5px rgb(241, 240, 238);
+    padding: 10px;
+}

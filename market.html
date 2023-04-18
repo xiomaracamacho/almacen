@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+    <link rel="stylesheet" href="css/market.css">
+    <link rel="shortcut icon" href="img/lpogo_market.jpg">
+    <script src="market.js"></script>
+</head>
+<body>
+    <nav>
+        <h1 class="titulo">FICHA TECNICA</h1>
+        <img class="imagen" src="img/imagen.jpg">
+    </nav>
+    <br>
+    
+    <div class="div-conten">
+        <h3 class="subti">Caracteristicas de Producto</h3>
+    <p>
+        <b>Nombre de Producto</b>
+        <input type="text" id="nomProducto" placeholder="Nombre del Produto">
+    </p>
+    <p>
+        <b>Linea de Produccion</b>
+        <input type="text" id="linea" placeholder="Linea de Produccion">
+    </p>
+    <p>
+    <label for="cantidad">
+        <b>Cantidad de Producto</b>
+        <input type="number" id="cantidad" placeholder="Cantidad de Producto">
+    </label>
+    </p>
+    <p>
+    <label for="valor">
+         <b class="valores" >Valores</b>
+        <input type="number" id="valor" placeholder="Valores">
+     </label>
+    </p>
+    <p>
+        <label for="version">
+            <b>Versiones Anteriores</b>
+            <input type="number" id="versiones" placeholder="Versiones Anteriores">
+        </label>
+        </p>
+     <p>
+        <label for="compu">
+            <b>Computadoras</b>
+             <input type="number" id="compu" placeholder="Numero de Computadoras">
+        </label>
+    </p>
+    <p>
+    <label for="vcompu">
+        <b class="valores">Valores</b>
+             <input  type="number" id="vcompu" placeholder="Valores">
+    </label>
+   </p>
+     <p>
+        <label for="impresora">
+             <b>Impresoras</b>
+                <input type="number" id="impresora" placeholder="Numero de Impresoras">
+        </label>
+    </p>
+    <p>
+        <label for="vimpre">
+            <b class="valores">Valores</b>
+                 <input  type="number" id="vimpre" placeholder="Valores">
+        </label>
+       </p>
+    <p>
+        <label for="laser">
+            <b>Laser Codigo de Barras</b>
+            <input type="number" id="laser" placeholder="Numero de Lasers">
+        </label>
+        </p>
+    <p>
+        <label for="vlaser">
+             <b class="valores">Valores</b>
+            <input  type="number" id="vlaser" placeholder="Valores">
+        </label>
+    </p>
+     <p>
+        <label for="tv">
+            <b>Televisores</b>
+            <input type="number" id="tv" placeholder="Numero de TV">
+        </label>
+    </p>
+    <p>
+        <label for="vtv">
+             <b class="valores">Valores</b>
+            <input  type="number" id="vtv" placeholder="Valores">
+        </label>
+    </p>
+    <p>
+        <label  for="neveras">
+            <b">Neveras</b>
+            <input  type="number" id="neveras" placeholder="Numero de Neveras">
+        </label>
+    </p>
+    <p>
+        <label  for="vneve">
+            <b class="valores">Valores</b>
+            <input  type="number" id="vneve" placeholder="Valores">
+        </label>
+    </p>
+    <p>
+        <label  for="conge">
+            <b>Congeladores</b>
+            <input  type="number" id="conge" placeholder="Valores">
+        </label>
+    </p>
+    <p>
+        <label  for="vconge">
+            <b class="valores">Valores</b>
+            <input  type="number" id="vconge" placeholder="Valores">
+        </label>
+    </p>
+    <p>
+        <label  for="vitrinas">
+            <b>Vitrinas</b>
+            <input  type="number" id="vitrinas" placeholder="Valores">
+        </label>
+    </p>
+    <p>
+        <label  for="vvitrinas">
+            <b class="valores">Valores</b>
+            <input  type="number" id="vvitrinas" placeholder="Valores">
+        </label>
+    </p>
+    <p>
+        <label  for="camara">
+            <b>Camaras de Seguridad</b>
+            <input  type="number" id="camara" placeholder="Valores">
+        </label>
+    </p>
+    <p>
+        <label  for="vcamara">
+            <b class="valores">Valores</b>
+            <input  type="number" id="vcamara" placeholder="Valores">
+        </label>
+    </p>
+    <button onclick="ficha()">Enviar Ficha Tecnica</button>
+</div>
+    <p id="rtpro"></p>
+    <p id="lineapro"></p>
+    <p id="cantiequi"></p>
+    <p id="total"></p>
+    <p id="versionante"></p>
+    <p id="comput"></p>
+    <p id="tcompu"></p>
+    <p id="impreso"></p>
+    <p id="timpre"></p>
+    <p id="las"></p>
+    <p id="tlaser"></p>
+    <p id="tele"></p>
+    <p id="ttv"></p>
+    <p id="never"></p>
+    <p id="tneve"></p>
+    <p id="congela"></p>
+    <p id="tcongela"></p>
+    <p id="vitri"></p>
+    <p id="tvitri"></p>
+    <p id="cama"></p>
+    <p id="tcama"></p>
+
+    <p class="totaltodo" id="totaldetodo"></p>
+    <button class="imprimir" onclick="imprimir()">Imprimir</button>
+    
+</body>
+</html>
