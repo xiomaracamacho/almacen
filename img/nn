@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <script defer src="compra.js"></script>
+
+</head>
+<body>
+    <h1>Compra</h1>
+
+    
+    <select name="telefono" id="compra">
+        <option value="huawei" id="huawei">Huawei Y9</option>
+        <option value="iphone" id="iphone">Iphone 11</option>
+        <option value="moto">Moto G20</option>
+        <option value="samsung">Samsung A50s</option>
+        <option value="xiaomi">Xiaomi Redmi Note9</option><br>
+        <option value="lg">LG K50</option><br>
+        </select><br><br>
+
+        <input type="number" id="cantidad" placeholder="Cantidad"><br><br>
+     
+      
+        <button onclick="Calcular()">Enviar</button> 
+        <div id="resultado"></div>
+       
+
+    <p>
+        <a href="inicio.html">Salir</a>
+    </p>
+ 
+    
+</body>
+</html>
+
+function Calcular(){
+    let resul,cantidad,huawei,iphone,resu
+
+
+    huawei = 700000 
+    cantidad = document.getElementById('cantidad').value 
+    resul= huawei*cantidad;
+    document.getElementById('resultado').innerHTML="Compró el teléfono Huawei, cantidad "+cantidad+", por un total de: "+resul;
+
+    iphone = 1800000
+    cantidad = document.getElementById('cantidad').value 
+    resu= iphone*cantidad;
+    document.getElementById('resultado').innerHTML="Compró el teléfono Iphone, cantidad "+cantidad+", por un total de: "+resu;
+
+}

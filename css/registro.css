@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    margin-top: 10%;
+}
+.resgistrar{
+    list-style: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+.resgistrar a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+i{
+    margin-left: 42%;
+}
+  
+input{
+    height: 20px;
+    width: 180px;
+}
+.texto{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color:  rgb(136, 130, 130);
+}
+.tex{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color:  rgb(136, 130, 130);
+
+}
+.password{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color:  rgb(136, 130, 130);
+}
+::placeholder{
+    color: black;
+}

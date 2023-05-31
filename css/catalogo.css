@@ -1,0 +1,60 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: rgb(156, 4, 4);
+}
+button{
+    margin-top: 40px;
+}
+.todo-1 {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   max-width: 70%;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 15%;
+}
+.todo-1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.todo-2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.todo-2:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.todo-3 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.todo-3:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+img{
+    cursor: pointer;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, label {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+label {
+    text-align: center;
+    display: block;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6{
+    width: 30%;
+    display: inline-block;
+}
+select{
+    margin-top: 10%;
+}
